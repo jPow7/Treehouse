@@ -14,6 +14,9 @@ public class Messy {
         for (String numberWord : numberWords) {
 //          Use the sout shortcut to write out numberWord;
             System.out.println(numberWord);
+
         }
+        List<String> words = Arrays.asList("Bacon", "Eggs", "Cheese", "sandwich" );
+        words.forEach(System.out::println);
     }
 }
